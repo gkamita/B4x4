@@ -1127,7 +1127,7 @@ class Structure:
         ax.step(z, n, 'black', where='post')
         ax.spines['top'].set_visible(False)
         ax.xaxis.set_ticks_position('bottom')
-        ax.set_xlabel("z (m)")
+        ax.set_xlabel("z (nm)")
         ax.set_ylabel("n")
         ax.ticklabel_format(style='scientific', axis='x', scilimits=(0,0))
         ax.set_xlim(z.min(), z.max())
