@@ -1,3 +1,8 @@
+Note: this repo was forked from Olivier Castany's repo.
+This branched repo adds codes for simple simulations of cholesteric liquid crystals, see example.py.
+The original Readme continues in the following.
+
+
 Berreman4x4
 ===========
 
