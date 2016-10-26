@@ -1,8 +1,8 @@
 B4x4 
 ===========
 This package can be used for simple optical simulation of cholesteric liquid crystals (A.K.A. chiralnematic liquid crystals).
+It has been tested with Python 2.7.
 I recomend begginers to install [Anaconda2](https://www.continuum.io/download) because it includes all the required modules for this package.
-It has been tested with Python 2.7 but should also work with python 3.x with some modifications.
 
 ## Initialisation
 
@@ -23,6 +23,7 @@ result_left = sim.calculateL()
 result_left.plot()
 ```
 
+<img src="demo/lcp_1.png" alt="alt text" width="600" height="450">
 ![Reflectance of cholesteric liquid crystals.](demo/lcp_1.png =600x)
 
 This figure shows the reflectance spectra of the simulated cholesteric liquid crystal, illuminated with left circularly polarized light (LCP).
