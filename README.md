@@ -6,8 +6,8 @@ It has been tested with Python 2.7 but should also work with python 3.x with som
 
 ## Initialisation
 
-To start, you need your Python interpreter to be able to discover two files, B4x4.py and Berreman4x4.py, see ![here](https://docs.python.org/2/tutorial/modules.html#the-module-search-path) for instructions if you don't know what that means.
-From a Python interactive session, for example in the terminal or in iPython notebook, run the following commands.
+To start, you need two files, B4x4.py and Berreman4x4.py, in the Python search path, see ![here](https://docs.python.org/2/tutorial/modules.html#the-module-search-path) for instructions if you don't know what that means.
+From a Python interactive session, (e.g. in terminal, iPython notebook, etc.) run the following commands.
 
 ```python
 import B4x4
