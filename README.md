@@ -1,12 +1,12 @@
 B4x4 
 ===========
 This package can be used for simple optical simulation of cholesteric liquid crystals (A.K.A. chiralnematic liquid crystals).
-I recomend begginers to install ![Anaconda2](https://www.continuum.io/download) because it includes all the required modules for this package.
+I recomend begginers to install [Anaconda2](https://www.continuum.io/download) because it includes all the required modules for this package.
 It has been tested with Python 2.7 but should also work with python 3.x with some modifications.
 
 ## Initialisation
 
-To start, you need two files, B4x4.py and Berreman4x4.py, in the Python search path, see ![here](https://docs.python.org/2/tutorial/modules.html#the-module-search-path) for instructions if you don't know what that means.
+To start, you need two files, B4x4.py and Berreman4x4.py, in the Python search path, see [here](https://docs.python.org/2/tutorial/modules.html#the-module-search-path) for instructions if you don't know what that means.
 From a Python interactive session, (e.g. in terminal, iPython notebook, etc.) run the following commands.
 
 ```python
