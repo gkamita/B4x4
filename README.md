@@ -64,8 +64,9 @@ Out[4]:
 The parameters are described in the docstring.
 iPython allows easy access to the docstring, simply put a question mark after the object and press enter.
 
-```python
+```
 sim?
+# for plane python, use dir(sim)
 ```
 
 ```
@@ -109,7 +110,9 @@ result_another = sim.calculateL()
 result_another.plot()
 ```
 
-It can be seen that the increase in the pitch and stack has changed the reflection spectrum.
+<img src="demo/lcp_2.png" alt="lcp_2" width="600" height="450">
+
+It can be seen that modifying the pitch and stack has changed the reflection spectrum, especialy the increase of peak wavelength and peak reflectance is.
 To save the spectra,
 
 ```python
