@@ -1,8 +1,8 @@
 B4x4 
 ===========
-B4x4 is a module for optical simulation, which sits on top of [Berreman4x4](https://github.com/Berreman4x4/Berreman4x4) created by Olivier Castany.
+B4x4 is a module for optical simulation of cholesteric liquid crystals based on Berreman 4x4 matrix method. It sits on top of [Berreman4x4](https://github.com/Berreman4x4/Berreman4x4) created by Olivier Castany.
 While Berreman4x4 is flexible and fully capable of complex simulations of stratified anisotropic media, it tends to lack user-friendlyness.
-B4x4 aims to provide a straight-forward interface for simulating the optical property of cholesteric liquid crystals.
+B4x4 aims to provide a straight-forward interface by focussing its scope to simple cholesteric liquid crystals.
 
 ## Setup
 B4x4 has been tested with Python 2.7.
