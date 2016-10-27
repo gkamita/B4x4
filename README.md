@@ -1,6 +1,6 @@
 B4x4 
 ===========
-This package can be used for simple optical simulation of cholesteric liquid crystals (A.K.A. chiralnematic liquid crystals).
+This package can be used for simple optical simulation of cholesteric liquid crystals (A.K.A. chiralnematic liquid crystals), based on the Berreman 4x4 matrix method.
 It has been tested with Python 2.7.
 I recomend begginers to install [Anaconda2](https://www.continuum.io/download) because it includes all the required modules for this package.
 
