@@ -11,7 +11,7 @@ From a Python interactive session, (e.g. in terminal, iPython notebook, etc.) ru
 
 ```python
 import B4x4
-sim = B4x4.Factory()
+sim = B4x4.Simulator()
 ```
 
 ## Simulating the reflectance of a cholesteric liquid crystal
@@ -35,7 +35,7 @@ result_right.plot()
 ```
 
 <img src="demo/rcp_1.png" alt="rcp_1" width="600" height="450">
-In this case, there is very little light reflected and no peak is seen.
+In this case, there is very little light reflected and fringes are present instead of a prominent peak.
 
 ## Changing parameters
 
@@ -70,9 +70,9 @@ sim?
 ```
 
 ```
-In [5]: test?
-Type:        Factory
-String form: <B4x4.Factory object at 0x10fcd6f50>
+In [5]: sim?
+Type:        Simulator
+String form: <B4x4.Simulator object at 0x10fcd6f50>
 File:        ~/Documents/Scripts/Python/Berreman4x4/B4x4.py
 Docstring:
 Performes simulations using properties stored in class instances.
@@ -145,4 +145,4 @@ This package was used for the simulation in the following publications.
 * Dumanli, Ahu Gümrah, et al. "Digital color in cellulose nanocrystal films." ACS applied materials & interfaces 6.15 (2014): 12302-12306.
 
 ## Acknowledgement
-Berreman4x4.py and files in the "examples" and "doc" folder is from [Olivier Castany's Python implementation of Berreman's 4x4 matrix method](https://github.com/Berreman4x4/Berreman4x4).
+Berreman4x4.py and files in the "examples" and "doc" folder are from [Olivier Castany's Python implementation of Berreman's 4x4 matrix method](https://github.com/Berreman4x4/Berreman4x4).

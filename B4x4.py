@@ -14,9 +14,9 @@ Documentation
   Available as docstrings.
 
 Classes
-  Factory: In charge of performing Berreman 4x4 simulation.
-           Instantiate Factory to start your simulation.
-           When a simulation is performed, Factory returns
+  Simulator: In charge of performing Berreman 4x4 simulation.
+           Instantiate Simulator to start your simulation.
+           When a simulation is performed, Simulator returns
            an instance of Spectrum as an output.
 
   Spectrum: In charge of plotting and exporting the results.
@@ -36,7 +36,7 @@ from collections import namedtuple
 from copy import deepcopy
 
 
-class Factory(object):
+class Simulator(object):
     """
     Performes simulations using properties stored in class instances.
     The default parameteres are based on Dumanli et. al.ACS Appl. Mater. Interfaces 2014, 6, 12302,
@@ -280,7 +280,7 @@ class Factory(object):
 
 class Spectrum(object):
     """
-    Output of Factory.
+    Output of Simulator.
 
     Method
       plot: Plots the spectrum.
@@ -336,7 +336,7 @@ def wavelength(settings):
 
 
 if __name__ == '__main__':
-    mySim = Factory()
+    mySim = Simulator()
     mySpec = mySim.calculateL()
     mySpec.plot()
     # mySpec.save('mytResult.txt')

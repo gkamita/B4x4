@@ -1,6 +1,6 @@
 # coding: utf-8
 import B4x4
-sim = B4x4.Factory()
+sim = B4x4.Simulator()
 sim.points = 50
 sim.lbda_max = 650
 result = sim.matrix('angle',0,90)

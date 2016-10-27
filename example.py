@@ -1,6 +1,6 @@
 # coding: utf-8
 import B4x4
-sim = B4x4.Factory()
+sim = B4x4.Simulator()
 result_left = sim.calculateL()
 result_left.plot()
 result_right = sim.calculateR()
