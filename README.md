@@ -118,6 +118,8 @@ It can be seen that modifying the pitch and stack has changed the reflection spe
 To run simulations in a batch, use the matrix method.
 
 ```python
+sim.pitch = 190
+sim.stack = 10
 result_matrix = sim.matrix('angle',0,90,1)
 #vary angle of incidence between 0 to 90 degrees, 1 degree per step
 result_matrix.image()
