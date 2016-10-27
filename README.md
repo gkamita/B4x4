@@ -1,12 +1,12 @@
 B4x4 
 ===========
 B4x4 is a module for optical simulation of cholesteric liquid crystals based on Berreman 4x4 matrix method. It sits on top of [Berreman4x4](https://github.com/Berreman4x4/Berreman4x4) created by Olivier Castany.
-While Berreman4x4 is flexible and fully capable of complex simulations of stratified anisotropic media, it tends to lack user-friendlyness.
-B4x4 aims to provide a straight-forward interface by focussing its scope to simple cholesteric liquid crystals.
+While Berreman4x4 is flexible and fully capable of complex simulations of stratified anisotropic media, it tends to lack user-friendliness.
+B4x4 aims to provide a straightforward interface by focusing its scope to simple cholesteric liquid crystals.
 
 ## Setup
 B4x4 has been tested with Python 2.7.
-If you don't have Python installed, [Anaconda2](https://www.continuum.io/download) is recommended because it includes all the required modules for this module.
+If you don't have Python installed, [Anaconda2](https://www.continuum.io/download) is recommended because it includes all the required modules.
 
 ## Initialisation
 
@@ -30,7 +30,7 @@ result_left.plot() #plotting result_left.spectrum against B4x4.wavelength(result
 <img src="demo/lcp_1.png" alt="lcp_1" width="600" height="450">
 
 This figure shows the reflection spectrum of the simulated cholesteric liquid crystal, with left circularly polarized light (LCP) illumination and detection.
-This simulationd assumes a left handed helix of the cholesteric structure, therefore a prominent peak is found in the reflectance of LCP.
+This simulation assumes a left handed helix of the cholesteric structure, therefore a prominent peak is found in the reflectance of LCP.
 To simulate right circularly polarized light,
 
 ```python
@@ -116,7 +116,7 @@ result_another.plot()
 
 <img src="demo/lcp_2.png" alt="lcp_2" width="600" height="450">
 
-It can be seen that modifying the pitch and stack has changed the reflection spectrum, especialy the peak wavelength and the peak reflectance, which have increased.
+It can be seen that modifying the pitch and stack has changed the reflection spectrum, especially the peak wavelength and the peak reflectance, which have increased.
 
 ## Batch simulation
 To run simulations in a batch, use the matrix method.
