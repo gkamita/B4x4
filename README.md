@@ -26,7 +26,7 @@ result_left.plot()
 <img src="demo/lcp_1.png" alt="lcp_1" width="600" height="450">
 
 This figure shows the reflectance spectra of the simulated cholesteric liquid crystal, illuminated with left circularly polarized light (LCP).
-This simulationd assumes a left handed helix of the cholesteric structure, therefore a prominent peak is found in the reflectance.
+This simulationd assumes a left handed helix of the cholesteric structure, therefore a prominent peak is found in the reflectance of LCP.
 To simulate right circularly polarized light,
 
 ```python
