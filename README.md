@@ -143,4 +143,4 @@ This package was used for the simulation in the following publications.
 * Dumanli, Ahu Gümrah, et al. "Digital color in cellulose nanocrystal films." ACS applied materials & interfaces 6.15 (2014): 12302-12306.
 
 ## Acknowledgement
-As this is a forked repo of [Olivier Castany's Python implementation of Berreman's 4x4 matrix method.](https://github.com/Berreman4x4/Berreman4x4), substantial amount of code is originates from the original repo.
+As this is a forked repo of [Olivier Castany's Python implementation of Berreman's 4x4 matrix method](https://github.com/Berreman4x4/Berreman4x4), substantial amount of code is originates from the original repo.
