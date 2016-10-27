@@ -6,7 +6,7 @@ I recomend begginers to install [Anaconda2](https://www.continuum.io/download) b
 
 ## Initialisation
 
-To start, you need two files, B4x4.py and Berreman4x4.py, in the Python search path, see [here](https://docs.python.org/2/tutorial/modules.html#the-module-search-path) for instructions if you don't know what that means.
+B4x4.py and Berreman4x4.py have to be in the Python search path, see [here](https://docs.python.org/2/tutorial/modules.html#the-module-search-path) for instructions if you don't know what that means.
 From a Python interactive session, (e.g. in terminal, iPython notebook, etc.) run the following commands.
 
 ```python
@@ -66,7 +66,7 @@ iPython allows easy access to the docstring, simply put a question mark after th
 
 ```
 sim?
-# for plane python, use dir(sim)
+# for plain python, use dir(sim)
 ```
 
 ```
