@@ -1,6 +1,6 @@
 B4x4 
 ===========
-B4x4 is a module for optical simulation that sits on top of [Berreman4x4](https://github.com/Berreman4x4/Berreman4x4) created by Olivier Castany.
+B4x4 is a module for optical simulation, which sits on top of [Berreman4x4](https://github.com/Berreman4x4/Berreman4x4) created by Olivier Castany.
 While Berreman4x4 is flexible and fully capable of complex simulations of stratified anisotropic media, it tends to lack user-friendlyness.
 B4x4 aims to provide a straight-forward interface for simulating the optical property of cholesteric liquid crystals.
 
@@ -147,6 +147,3 @@ which will produce txt files that contains the spectra and other information in 
 This package was used for the simulation in the following publications.
 * Dumanli, Ahu Gumrah, et al. "Controlled, Bio‐inspired Self‐Assembly of Cellulose‐Based Chiral Reflectors." Advanced optical materials 2.7 (2014): 646-650.
 * Dumanli, Ahu Gümrah, et al. "Digital color in cellulose nanocrystal films." ACS applied materials & interfaces 6.15 (2014): 12302-12306.
-
-## Acknowledgement
-Berreman4x4.py and files in the "examples" and "doc" folder are from [Olivier Castany's Python implementation of Berreman's 4x4 matrix method](https://github.com/Berreman4x4/Berreman4x4).
