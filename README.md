@@ -135,7 +135,7 @@ result_another.save('another_reflection.txt')
 result_matrix.save('matrix.txt')
 ```
 
-which will produce txt file that contains the spectra and other information in the current folder.
+which will produce txt files that contains the spectra and other information in the current folder.
 
 ## Related publications
 This package was used for the simulation in the following publications.
