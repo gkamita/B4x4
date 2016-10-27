@@ -45,12 +45,14 @@ class Factory(object):
     Methods
       calculateL: Returns instance of Spectrum containing LCP reflectance.
       calculateR: Same as calculateL but for RCP reflectance.
-      matrix: Under construction.
+      matrix: Run simulations in batches.
     
     Properties
       pitch:        pitch in nm (180 degree twist)
-      no:           refractive index of ordinary ray
-      ne:           refractive index of extraordinary ray
+      no:           refractive index that the ordinary ray experiences
+      ne:           refractive index that the extraordinary ray experiences
+      nAverage:     Average refractive index, that is (no + ne)/2
+      nDelta:       Birefringence, that is ne - no
       nSuperstrate: refractive index of superstrate (air: n = 1)
       nSubstrate:   refractive index of suberstrate (PS: n = 1.59, SiO2: n=1.55)
       stack:        number of pitches (180 degree twist) in the structure
@@ -61,7 +63,7 @@ class Factory(object):
       slices:       number of discrete anisotropic layers per 180 twist
 
     Attribute
-      settings:     All the above properties are stored in this.
+      settings:     All parameters related to the above properties are stored here.
     """
 
     def __init__(self):
@@ -134,7 +136,8 @@ class Factory(object):
 
     def matrix(self, parameter, start, stop, step=1):
         """
-        Returns a spectra matrix. Choose parameter to vary by passing dictionary key as a string through 'parameter'.
+        Returns batch-simulated spectra.
+        parameter: String that specifis which parameter to vary. 
         """
         leftArray = array([])
         if parameter in self.settings:

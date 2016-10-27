@@ -98,7 +98,7 @@ Properties
   slices:       number of discrete anisotropic layers per 180 twist
 
 Attribute
-  settings:     All the above properties are stored in this.
+  settings:     All the above properties are stored here.
 ```
 
 To change the parameters of the simulation,
@@ -112,16 +112,35 @@ result_another.plot()
 
 <img src="demo/lcp_2.png" alt="lcp_2" width="600" height="450">
 
-It can be seen that modifying the pitch and stack has changed the reflection spectrum, especialy the increase of peak wavelength and peak reflectance is.
+It can be seen that modifying the pitch and stack has changed the reflection spectrum, especialy the peak wavelength and the peak reflectance, which have increased.
+
+## Batch simulation
+To run simulations in a batch, use the matrix method.
+
+```python
+result_matrix = sim.matrix('angle',0,90)
+#vary angle of incidence between 0 to 90 degrees, 1 degree per step
+result_matrix.image()
+```
+<img src="demo/matrix.png" alt="mat" width="600" height="228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228228">
+
+
+## Saving results
 To save the spectra,
 
 ```python
 result_left.save('left_reflection.txt')
 result_right.save('right_reflection.txt')
 result_another.save('another_reflection.txt')
+result_matrix.save('matrix.txt')
 ```
 
-which will produce txt file that contains the spectra and other information.
+which will produce txt file that contains the spectra and other information in the current folder.
+
+## Related publications
+This package was used for the simulation in the following publications.
+* Dumanli, Ahu Gumrah, et al. "Controlled, Bio‐inspired Self‐Assembly of Cellulose‐Based Chiral Reflectors." Advanced optical materials 2.7 (2014): 646-650.
+* Dumanli, Ahu Gümrah, et al. "Digital color in cellulose nanocrystal films." ACS applied materials & interfaces 6.15 (2014): 12302-12306.
 
 ## Acknowledgement
-Note: Substantial amount of code used in this module is from [Olivier Castany's Python implementation of Berreman's 4x4 matrix method.](https://github.com/Berreman4x4/Berreman4x4)
+As this is a forked repo of [Olivier Castany's Python implementation of Berreman's 4x4 matrix method.](https://github.com/Berreman4x4/Berreman4x4), substantial amount of code is originates from the original repo.
