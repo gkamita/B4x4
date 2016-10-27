@@ -1,8 +1,12 @@
 B4x4 
 ===========
-This package can be used for simple optical simulation of cholesteric liquid crystals (A.K.A. chiralnematic liquid crystals), based on the Berreman 4x4 matrix method.
-It has been tested with Python 2.7.
-I recomend begginers to install [Anaconda2](https://www.continuum.io/download) because it includes all the required modules for this package.
+B4x4 is a module for optical simulation that sits on top of [Berreman4x4](https://github.com/Berreman4x4/Berreman4x4) created by Olivier Castany.
+While Berreman4x4 is flexible and fully capable of complex simulations of stratified anisotropic media, it tends to lack user-friendlyness.
+B4x4 aims to provide a straight-forward interface for simulating the optical property of cholesteric liquid crystals.
+
+## Setup
+B4x4 has been tested with Python 2.7.
+If you don't have Python installed, [Anaconda2](https://www.continuum.io/download) is recommended because it includes all the required modules for this module.
 
 ## Initialisation
 
@@ -20,12 +24,12 @@ To run simulations,
 
 ```python
 result_left = sim.calculateL()
-result_left.plot()
+result_left.plot() #plotting result_left.spectrum against B4x4.wavelength(result_left.settings).
 ```
 
 <img src="demo/lcp_1.png" alt="lcp_1" width="600" height="450">
 
-This figure shows the reflectance spectra of the simulated cholesteric liquid crystal, illuminated with left circularly polarized light (LCP).
+This figure shows the reflection spectrum of the simulated cholesteric liquid crystal, with left circularly polarized light (LCP) illumination and detection.
 This simulationd assumes a left handed helix of the cholesteric structure, therefore a prominent peak is found in the reflectance of LCP.
 To simulate right circularly polarized light,
 
